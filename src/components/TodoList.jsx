@@ -23,8 +23,6 @@ function TodoList({todo, handleDelete, handleEdit}) {
           !isEdit ? 
           <>
             <div className="todosData">
-              <h4>{todo.date}</h4>
-              <h5>|</h5>
               <h3>{todo.title}</h3>
             </div>
             <div className="todosButtons">

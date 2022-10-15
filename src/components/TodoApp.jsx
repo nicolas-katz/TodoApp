@@ -54,7 +54,7 @@ export default function TodoApp() {
 
     return (
         <div className='todoContainer'>
-            <h1>TodoApp w/ use-State</h1>
+            <h1>TodoApp w/ useState</h1>
             <div className="todoSubContainer">
                 <form className='createTodoForm' onSubmit={handleSubmit}>
                     <input 
